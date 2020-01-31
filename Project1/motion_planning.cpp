@@ -2,8 +2,8 @@
 //Project: Implementation of the BFS Algorithm in 2D plane
 //Language: C/C++
  //run this command in terminal 
- //Step 1 g++ project1.cpp -o project1 -lX11 -lm -L/usr/X11R6/lib
- //Step 2 ./project1 data.txt
+ //Step 1 g++ motion_planning.cpp -o motion_planning -lX11 -lm -L/usr/X11R6/lib
+ //Step 2 ./motion_planning data.txt
 
  /*
 // #define N 100  
