@@ -1,2 +1,2 @@
 # Algorithms Implementation
-Implementation of Some classic Algorithms
+Implementation of some classic Algorithms
