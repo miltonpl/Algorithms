@@ -46,7 +46,7 @@ bool isValid(int row, int col,int phi) {
 	// return true if N number and column number is in range 
 	return (row >= 0) && (row < ROW) && (col >= 0) && (col < COL)&& (phi < ANGLE)&& (phi >= 0); 
 } 
-
+// if sign is > 0 then is clockwize other wise is counter clock wise
 float sign (Point p1, Point p2, Point p3){
     return (p1.x - p3.x) * (p2.y - p3.y) - (p2.x - p3.x) * (p1.y - p3.y);
 }
