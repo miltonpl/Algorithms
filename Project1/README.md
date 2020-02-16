@@ -1,5 +1,5 @@
 The implementation of this code was done using C/C++ libraries on Mac PC.
-the libraries use for the visulization was Xlib library.
+the libraries Xlib library was used from XQuatz from linux.
 The code was run from the terminal on current file.
 //Step 1 g++ motion_planning.cpp -o motion_planning -lX11 -lm -L/usr/X11R6/lib
 //Step 2 ./motion_planning data.txt
