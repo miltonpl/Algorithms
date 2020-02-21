@@ -8,10 +8,10 @@ the libraries Xlib library was used from XQuatz from linux.
 ```
 ## Data Txt File
 The data.txt file contains vehicule shape 
-V(x,y)(x2,y2)(x3,y3),
-start pososition S(x,y),
-targte posiong T(x,y) 
-and obstible dimentions O(x,y)(x2,y2)(x3,y3).
+- V(x,y)(x2,y2)(x3,y3),
+- start pososition S(x,y),
+- targte posiong T(x,y) 
+- obstible dimentions O(x,y)(x2,y2)(x3,y3).
 ## Vehicle Funtionality Order
 The funtionality of the vehicle: can move to left, riht, up,down, and counter clockwire rotation.
 Node that the veicule should move and rotate in that order, so that it does rotate in circles.
