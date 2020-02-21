@@ -7,11 +7,11 @@ the libraries Xlib library was used from XQuatz from linux.
 //Step 2 ./motion_planning data.txt
 ```
 ## Data Txt File
-The data.txt file contains vehicule shape 
-- V(x,y)(x2,y2)(x3,y3),
-- start pososition S(x,y),
-- targte posiong T(x,y) 
-- obstible dimentions O(x,y)(x2,y2)(x3,y3).
-## Vehicle Funtionality Order
-The funtionality of the vehicle: can move to left, riht, up,down, and counter clockwire rotation.
+The data.txt file contains vehicle shape 
+- V (x1,y1)(x2,y2)(x3,y3) vehicle dimentions
+- S (x,y) start pososition 
+- T (x,y) targte posiong 
+- O (x1,y1)(x2,y2)(x3,y3) obstacle shape
+## Vehicle Functionalities
+The vehicle: can move to left, riht, up,down, and counter clockwire rotation.
 Node that the veicule should move and rotate in that order, so that it does rotate in circles.
