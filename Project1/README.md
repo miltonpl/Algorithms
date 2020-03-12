@@ -15,7 +15,7 @@ The data.txt file contains vehicle shape
 ## Vehicle Functionalities
 The vehicle: can move to left, riht, up,down, and counter clockwire rotation.
 Node that the veicule should move and rotate in that order, so that it does rotate in circles.
-## Result Tests1
+## Test1
 ![](result1.png)
-## Result test2
+## Test2
 ![](result1.png)
