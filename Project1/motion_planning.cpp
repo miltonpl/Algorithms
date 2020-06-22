@@ -25,7 +25,7 @@ struct Point { //point x,y and angle k for rotation
 	int x,y,k; 
 }; 
  
- struct Triangle_{//Trianble points a,b c .points[0],points[1],points[2]
+ struct Triangle_{//Triangle points a,b c .points[0],points[1],points[2]
      Point points[3];
  };
 struct Triangle{// this struct will be use to return points after rotation
