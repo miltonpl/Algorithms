@@ -26,16 +26,7 @@
  Input Format
  The first line has two space-separated integers  and , the number of nodes and edges in the graph.
  The next  lines each consist of three space-separated integers ,  and , where  and  denote the two nodes between which the undirected edge exists and  denotes the weight of that edge.
- Input
- 
- 4 6
- 1 2 5
- 1 3 3
- 4 1 6
- 2 4 7
- 3 2 4
- 3 4 5
- */
+*/
 /*
  * Complete the 'kruskals' function below.
  *
@@ -54,21 +45,6 @@
 //Minimal Spanning Tree
 // |e| = n - 1
 
-/*
- let input2 = [
-     [1, 2, 1],
-     [3, 2, 150],
-     [4, 3, 99],
-     [1, 4, 100],
-     [3, 1, 200],
- ]
- 
- 
-  input2
-  Expected Output
-  200
-
- */
 import Foundation
 
 class KruskalsMST {

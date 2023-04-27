@@ -12,9 +12,14 @@
 		5243AEFB29F0BFC4000E2AED /* GraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243AEFA29F0BFC4000E2AED /* GraphTests.swift */; };
 		5243AEFD29F0C18C000E2AED /* ShortestReach2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243AEFC29F0C18C000E2AED /* ShortestReach2.swift */; };
 		5243AEFF29F0C496000E2AED /* KruskalsMST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243AEFE29F0C496000E2AED /* KruskalsMST.swift */; };
+		5243AF0129F0EC5C000E2AED /* PrimsSMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243AF0029F0EC5C000E2AED /* PrimsSMT.swift */; };
 		5263C4AD29F0BA0A007A94EE /* AlgorithmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263C4AC29F0BA0A007A94EE /* AlgorithmsApp.swift */; };
 		5263C4AF29F0BA0A007A94EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263C4AE29F0BA0A007A94EE /* ContentView.swift */; };
-		5263C4C129F0BA5F007A94EE /* AlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263C4C029F0BA5F007A94EE /* AlgorithmsTests.swift */; };
+		52B2759A29F87B4800DD3BA7 /* BinaryGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2759929F87B4800DD3BA7 /* BinaryGap.swift */; };
+		52B2759C29F8820C00DD3BA7 /* CodilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2759B29F8820C00DD3BA7 /* CodilityTests.swift */; };
+		52B2759E29F88C7200DD3BA7 /* CycleRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2759D29F88C7200DD3BA7 /* CycleRotation.swift */; };
+		52B275A029F9A98900DD3BA7 /* Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B2759F29F9A98900DD3BA7 /* Task2.swift */; };
+		52B275A229F9AF3C00DD3BA7 /* InteractiveBrokers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B275A129F9AF3C00DD3BA7 /* InteractiveBrokers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +38,16 @@
 		5243AEFA29F0BFC4000E2AED /* GraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTests.swift; sourceTree = "<group>"; };
 		5243AEFC29F0C18C000E2AED /* ShortestReach2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortestReach2.swift; sourceTree = "<group>"; };
 		5243AEFE29F0C496000E2AED /* KruskalsMST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KruskalsMST.swift; sourceTree = "<group>"; };
+		5243AF0029F0EC5C000E2AED /* PrimsSMT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimsSMT.swift; sourceTree = "<group>"; };
 		5263C4A929F0BA0A007A94EE /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5263C4AC29F0BA0A007A94EE /* AlgorithmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsApp.swift; sourceTree = "<group>"; };
 		5263C4AE29F0BA0A007A94EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5263C4BE29F0BA5F007A94EE /* AlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5263C4C029F0BA5F007A94EE /* AlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsTests.swift; sourceTree = "<group>"; };
+		52B2759929F87B4800DD3BA7 /* BinaryGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryGap.swift; sourceTree = "<group>"; };
+		52B2759B29F8820C00DD3BA7 /* CodilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodilityTests.swift; sourceTree = "<group>"; };
+		52B2759D29F88C7200DD3BA7 /* CycleRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleRotation.swift; sourceTree = "<group>"; };
+		52B2759F29F9A98900DD3BA7 /* Task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2.swift; sourceTree = "<group>"; };
+		52B275A129F9AF3C00DD3BA7 /* InteractiveBrokers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveBrokers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 				5243AEF729F0BE1D000E2AED /* LightsOutStyleGame.swift */,
 				5243AEFC29F0C18C000E2AED /* ShortestReach2.swift */,
 				5243AEFE29F0C496000E2AED /* KruskalsMST.swift */,
+				5243AF0029F0EC5C000E2AED /* PrimsSMT.swift */,
 			);
 			path = Graphs;
 			sourceTree = "<group>";
@@ -97,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				5263C4AB29F0BA0A007A94EE /* Algorithms */,
-				5263C4BF29F0BA5F007A94EE /* AlgorithmsTests */,
+				5263C4BF29F0BA5F007A94EE /* Tests */,
 				5263C4AA29F0BA0A007A94EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,18 +131,19 @@
 			path = Algorithms;
 			sourceTree = "<group>";
 		};
-		5263C4BF29F0BA5F007A94EE /* AlgorithmsTests */ = {
+		5263C4BF29F0BA5F007A94EE /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				52B275A529FA23AE00DD3BA7 /* Codility */,
 				5243AEF929F0BF7C000E2AED /* Graphs */,
-				5263C4C029F0BA5F007A94EE /* AlgorithmsTests.swift */,
 			);
-			path = AlgorithmsTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		5263C4C729F0BA70007A94EE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				52B2759829F87B3100DD3BA7 /* Codility */,
 				5243AEF629F0BD64000E2AED /* Graphs */,
 			);
 			path = Sources;
@@ -144,6 +156,25 @@
 				5243AEF029F0BB0E000E2AED /* Application */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		52B2759829F87B3100DD3BA7 /* Codility */ = {
+			isa = PBXGroup;
+			children = (
+				52B2759929F87B4800DD3BA7 /* BinaryGap.swift */,
+				52B2759D29F88C7200DD3BA7 /* CycleRotation.swift */,
+				52B2759F29F9A98900DD3BA7 /* Task2.swift */,
+				52B275A129F9AF3C00DD3BA7 /* InteractiveBrokers.swift */,
+			);
+			path = Codility;
+			sourceTree = "<group>";
+		};
+		52B275A529FA23AE00DD3BA7 /* Codility */ = {
+			isa = PBXGroup;
+			children = (
+				52B2759B29F8820C00DD3BA7 /* CodilityTests.swift */,
+			);
+			path = Codility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,7 +278,12 @@
 			files = (
 				5243AEF829F0BE1D000E2AED /* LightsOutStyleGame.swift in Sources */,
 				5243AEFD29F0C18C000E2AED /* ShortestReach2.swift in Sources */,
+				52B2759E29F88C7200DD3BA7 /* CycleRotation.swift in Sources */,
+				5243AF0129F0EC5C000E2AED /* PrimsSMT.swift in Sources */,
+				52B2759A29F87B4800DD3BA7 /* BinaryGap.swift in Sources */,
 				5263C4AF29F0BA0A007A94EE /* ContentView.swift in Sources */,
+				52B275A029F9A98900DD3BA7 /* Task2.swift in Sources */,
+				52B275A229F9AF3C00DD3BA7 /* InteractiveBrokers.swift in Sources */,
 				5263C4AD29F0BA0A007A94EE /* AlgorithmsApp.swift in Sources */,
 				5243AEFF29F0C496000E2AED /* KruskalsMST.swift in Sources */,
 			);
@@ -258,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5243AEFB29F0BFC4000E2AED /* GraphTests.swift in Sources */,
-				5263C4C129F0BA5F007A94EE /* AlgorithmsTests.swift in Sources */,
+				52B2759C29F8820C00DD3BA7 /* CodilityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

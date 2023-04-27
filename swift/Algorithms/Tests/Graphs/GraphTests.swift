@@ -102,4 +102,55 @@ final class GraphTests: XCTestCase {
         let expected = 200
         XCTAssertEqual(result, expected)
     }
+    /*
+     /*
+      5 6
+      1 2 3
+      1 3 4
+      4 2 6
+      5 2 2
+      2 3 5
+      3 5 7
+      1
+      */
+     */
+    func testPrims() throws {
+        let prim = PrimsMST()
+        let edges = [
+            [1, 2, 3],
+            [1, 3, 4],
+            [4, 2, 6],
+            [5, 2, 2],
+            [2, 3, 5],
+            [3, 5, 7]
+        ]
+        let result = prim.prims(n: 5, edges: edges, start: 1)
+        XCTAssertEqual(result, 15)
+    }
+    /*
+     5 7
+     1 2 20
+     1 3 50
+     1 4 70
+     1 5 90
+     2 3 30
+     3 4 40
+     4 5 60
+     2
+     Expected: 150
+     */
+    func testPrims2() throws {
+        let prim = PrimsMST()
+        let edges = [
+            [1, 2, 20],
+            [1, 3, 50],
+            [1, 4, 70],
+            [1, 5, 90],
+            [2, 3, 30],
+            [3, 4, 40],
+            [4, 5, 60]
+        ]
+    let result = prim.prims(n: 5, edges: edges, start: 2)
+        XCTAssertEqual(result, 150)
+    }
 }
