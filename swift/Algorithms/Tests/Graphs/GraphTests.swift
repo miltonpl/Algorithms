@@ -153,4 +153,26 @@ final class GraphTests: XCTestCase {
     let result = prim.prims(n: 5, edges: edges, start: 2)
         XCTAssertEqual(result, 150)
     }
+
+    func testEvenTree() throws {
+        // Given
+        let evenTree = EvenTree()
+        let nodes = 10
+        let edges = 9
+        let fromEdg = [2,3,4,5,6,7,8,9,10]
+        let toEdg = [1,1,3,2,1,2,6,8,8]
+
+        // When
+        let result = evenTree.evenForest(
+            t_nodes: nodes,
+            t_edges: edges,
+            t_from: fromEdg,
+            t_to: toEdg
+        )
+
+        // Then
+        let expectedCutEdges = 2
+        XCTAssertEqual(result, expectedCutEdges)
+    }
 }
+
