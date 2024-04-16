@@ -24,13 +24,11 @@ final class GetMaxAdditionalDinersCountTests: XCTestCase {
  S = [11, 6, 14]
  return 1
  */
+    /*
+     - o - x - o - x - x
+     */
     func test1() throws {
         let result = sut.solution(N: 10, K: 1, M: 2, S: [2,6])
-        XCTAssertEqual(result, 2)
-    }
-    
-    func test2() throws {
-        let result = sut.solutionII(N: 10, K: 1, M: 2, S: [2,6])
-        XCTAssertEqual(result, 2)
+        XCTAssertEqual(result, 3)
     }
 }

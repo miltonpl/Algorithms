@@ -5,6 +5,8 @@
 //  Created by Milton Palaguachi on 4/10/24.
 //
 
+// ref: https://leetcode.com/problems/largest-sum-of-averages/description/
+
 import Foundation
 /*
  813. Largest Sum of Averages
@@ -18,22 +20,33 @@ import Foundation
  */
 class LargestSumOfAverages {
     func solution(_ nums: [Int], _ k: Int) -> Double {
-        let sortedNums = nums.sorted{ $0 > $1 }
-        var result = 0.0
-        var count = 0
-        var total = 0
-        for i in 0..<sortedNums.count {
-            if i < (k - 1) {
-            result += Double(sortedNums[i])
-            } else {
-                total += sortedNums[i]
-                count += 1
-            }
-        }
-        //[4,1,7,5,6,2,3]
-        if total > 0 {
-            result += Double(total)/Double(count)
-        }
-        return result
-    }
+           
+           var memo: [[Double]] = Array(
+               repeating: Array(repeating: -1.0, count: k + 1),
+               count: nums.count
+           )
+
+           func partition(_ index: Int, _ k: Int) -> Double {
+               if index >= nums.count { return 0.0 }
+               if k == 0 { return -1000000000.0 }
+
+               if memo[index][k] != -1.0 {
+                   return memo[index][k]
+               }
+
+               var sum = 0
+               memo[index][k] = 0.0
+               for i in index..<nums.count {
+                   sum += nums[i]
+                   memo[index][k] = max(
+                       memo[index][k],
+                       partition(i + 1, k - 1) + (Double(sum) / Double(i - index + 1))
+                   )
+               }
+
+               return memo[index][k]
+           }
+
+           return partition(0, k)
+       }
 }

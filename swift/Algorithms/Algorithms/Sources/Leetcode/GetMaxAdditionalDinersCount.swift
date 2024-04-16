@@ -31,28 +31,12 @@ rows: o1,x2,o3,o4,o5,x6,o7,o8,x9,o10,
  k=2
  1 + r/(k + 1) = 1 +(n - 1)/(k+1) = 1 + 4/3= 2
  */
-    func solution(N: Int, K: Int, M: Int, S: [Int])-> Int {
-        func getCount(start: Int, end: Int, K: Int) -> Int {
-            return start > end ? 0 : (end - start)/(K + 1) + 1
-        }
 
-        let S = S.sorted()
-        var result = 0
-        var start = 1, end = 0
-        
-        for s in S {
-            end = s - K - 1
-            result += getCount(start: start, end: end, K: K)
-            start = s + K + 1
-        }
-        result += getCount(start: start, end: N, K: K)
-        return result
-    }
     //4 - 4
 // (10 - 8)/(2) + 1 = 2/2 + 1= 2
     // Valid solution
     /// ref: https://www.youtube.com/watch?v=zdHjq8ezHV0&t=901s
-    func solutionII(N: Int, K: Int, M: Int, S: [Int]) -> Int {
+    func solution(N: Int, K: Int, M: Int, S: [Int]) -> Int {
         let seatsTaken = S.sorted()
         var extraSpace = 0
         var firstOpenSeat = 1

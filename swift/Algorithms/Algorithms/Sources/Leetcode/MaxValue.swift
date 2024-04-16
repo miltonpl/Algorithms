@@ -24,7 +24,7 @@ import Foundation
  */
 
 struct MaxValue {
-    func mysolution(arr: [Int]) -> Int {
+    func solution(arr: [Int]) -> Int {
         var negativeArray = [Int]()
         var positiveArray = [Int]()
         var result = 0
@@ -46,19 +46,19 @@ struct MaxValue {
         return result
     }
 
-    func solution(arr: [Int]) -> Int {
-        let sortedArr = arr.sorted { $0 > $1 }
-
-        var negativeCount = 0
-        var positiveCount = 0
-        var result = 0
-        for num in arr {
-            if num < 0 {
-                negativeCount += 1
-            } else {
-                negativeCount += 1
-            }
-        }
-        return -1
-    }
+//    func solution(arr: [Int]) -> Int {
+//        let sortedArr = arr.sorted { $0 > $1 }
+//
+//        var negativeCount = 0
+//        var positiveCount = 0
+//        var result = 0
+//        for num in arr {
+//            if num < 0 {
+//                negativeCount += 1
+//            } else {
+//                negativeCount += 1
+//            }
+//        }
+//        return -1
+//    }
 }

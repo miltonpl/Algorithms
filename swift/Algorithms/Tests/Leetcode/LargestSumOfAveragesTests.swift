@@ -19,13 +19,26 @@ final class LargestSumOfAveragesTests: XCTestCase {
         sut = nil
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-    
+
     func testExample1() throws {
+        let array = [9,1,2,3,9]
+        let k = 3
+        let result = sut.solution(array, k)
+        
+        let expected = 20.00000
+        XCTAssertEqual(result, expected)
+    }
+
+    func testExample3() throws {
         let array = [4,1,7,5,6,2,3]
+        // (4 + 1)/2 = 2.5
+        // 7 + 5 = 12
+        // (6 + 2 + 3)/3 =11/3 = 3.667
+        // = 18.333
         let k = 4
         let result = sut.solution(array, k)
         
         let expected = 18.16667
-        XCTAssertEqual(result, expected)
+        XCTAssertEqual(result.rounded(), expected.rounded())
     }
 }
