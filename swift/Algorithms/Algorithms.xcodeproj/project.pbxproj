@@ -25,6 +25,8 @@
 		5247630C2BC39BBF00A1C40C /* GetMaxAdditionalDinersCountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5247630B2BC39BBF00A1C40C /* GetMaxAdditionalDinersCountTests.swift */; };
 		5263C4AD29F0BA0A007A94EE /* AlgorithmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263C4AC29F0BA0A007A94EE /* AlgorithmsApp.swift */; };
 		5263C4AF29F0BA0A007A94EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5263C4AE29F0BA0A007A94EE /* ContentView.swift */; };
+		526FE4762BD09A53007A870F /* AddOneRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526FE4752BD09A53007A870F /* AddOneRow.swift */; };
+		526FE4782BD0CC18007A870F /* AddOneRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526FE4772BD0CC18007A870F /* AddOneRowTests.swift */; };
 		528177C72BC64BD400D1AFD4 /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528177C62BC64BD400D1AFD4 /* MergeIntervals.swift */; };
 		528177C92BC64CEA00D1AFD4 /* MergeIntervalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528177C82BC64CEA00D1AFD4 /* MergeIntervalsTests.swift */; };
 		528177CB2BC76ABD00D1AFD4 /* MaxValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528177CA2BC76ABD00D1AFD4 /* MaxValue.swift */; };
@@ -76,6 +78,8 @@
 		5263C4AC29F0BA0A007A94EE /* AlgorithmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsApp.swift; sourceTree = "<group>"; };
 		5263C4AE29F0BA0A007A94EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5263C4BE29F0BA5F007A94EE /* AlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		526FE4752BD09A53007A870F /* AddOneRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOneRow.swift; sourceTree = "<group>"; };
+		526FE4772BD0CC18007A870F /* AddOneRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOneRowTests.swift; sourceTree = "<group>"; };
 		528177C62BC64BD400D1AFD4 /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
 		528177C82BC64CEA00D1AFD4 /* MergeIntervalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervalsTests.swift; sourceTree = "<group>"; };
 		528177CA2BC76ABD00D1AFD4 /* MaxValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxValue.swift; sourceTree = "<group>"; };
@@ -240,6 +244,7 @@
 				528177C62BC64BD400D1AFD4 /* MergeIntervals.swift */,
 				528177CA2BC76ABD00D1AFD4 /* MaxValue.swift */,
 				528177CE2BC78C9C00D1AFD4 /* LargestSumOfAverages.swift */,
+				526FE4752BD09A53007A870F /* AddOneRow.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 				528177C82BC64CEA00D1AFD4 /* MergeIntervalsTests.swift */,
 				528177CC2BC76AFB00D1AFD4 /* MaxValueTests.swift */,
 				528177D02BC78CBF00D1AFD4 /* LargestSumOfAveragesTests.swift */,
+				526FE4772BD0CC18007A870F /* AddOneRowTests.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -392,6 +398,7 @@
 				5247630A2BC30C8700A1C40C /* GetMaxAdditionalDinersCount.swift in Sources */,
 				529CAB212BBD1BA900D3DC05 /* AddTwoNumbers.swift in Sources */,
 				52B2759A29F87B4800DD3BA7 /* BinaryGap.swift in Sources */,
+				526FE4762BD09A53007A870F /* AddOneRow.swift in Sources */,
 				5237E3762AD4F5A1008F3D8D /* SequenceEquation.swift in Sources */,
 				528177CB2BC76ABD00D1AFD4 /* MaxValue.swift in Sources */,
 				529CAB1C2BBBA4F100D3DC05 /* TwoSum.swift in Sources */,
@@ -417,6 +424,7 @@
 				529CAB272BBFAAE400D3DC05 /* LengthOfLongestSubstringTests.swift in Sources */,
 				5237E3702AC67CAD008F3D8D /* HackerRackTests.swift in Sources */,
 				5243AEFB29F0BFC4000E2AED /* GraphTests.swift in Sources */,
+				526FE4782BD0CC18007A870F /* AddOneRowTests.swift in Sources */,
 				529CAB1F2BBBA9C900D3DC05 /* TwoSumTests.swift in Sources */,
 				52B2759C29F8820C00DD3BA7 /* CodilityTests.swift in Sources */,
 			);
